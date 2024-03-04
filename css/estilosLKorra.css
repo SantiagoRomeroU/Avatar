@@ -1,0 +1,410 @@
+* {
+	cursor: url('../img/punteroo.png'), auto;
+}
+
+body {
+	margin: 0px;
+	height: calc(100%);
+	background: url('../img/korra/4avatarBG.jpg');
+	background-position: 50% 0; /* me centra horizontalmente a la mitad 
+	y verticalmente nada */
+	background-repeat: no-repeat; /* no se repetirá el fondo infinitamente */
+	background-size: 100% 100%; /* tamaño de la imagen del fondo, tamaño
+	en el eje X y luego en el eje Y respectivamente */
+	background-attachment: fixed; /* fondo fijo en la pantalla */
+
+	cursor: url('../img/punteroo.png'), auto;
+}
+
+body a {
+	cursor: url('../img/punteroo.png'), auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO ESTRUCTURACION DEL LAYOUT*/
+/*INICIO ESTRUCTURACION DEL LAYOUT*/
+/*INICIO ESTRUCTURACION DEL LAYOUT*/
+/*INICIO ESTRUCTURACION DEL LAYOUT*/
+header {
+	height: calc(10%);
+
+	background-color: #61a6da;
+	opacity: 0.87;
+
+	border-bottom: 5px solid #fff0e0;
+}
+
+nav {
+	height: calc(10%);
+	width: 100%;
+
+	background-color: #ffffd6;
+	opacity: 0.87;
+
+	border-top: 5px solid #92C240;
+	border-bottom: 5px solid #92C240;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.container {
+	height: calc(920%);
+	margin-top: 10%;
+	opacity: 1;
+
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	width: 75%;
+
+	background-color: #d0774c;
+	padding: 15px;
+
+	border: 5px solid #debc4f;
+	box-sizing: border-box;
+	margin: 10px;
+}
+
+footer {
+	height: calc(15%);
+	margin-top: 20px;
+	margin-bottom: 50px;
+	padding: 0;
+
+	background-color: #D5D3D3;
+	border-top: 5px solid white;
+	opacity: 0.87;
+}
+/*FINAL ESTRUCTURACION DEL LAYOUT*/
+/*FINAL ESTRUCTURACION DEL LAYOUT*/
+/*FINAL ESTRUCTURACION DEL LAYOUT*/
+/*FINAL ESTRUCTURACION DEL LAYOUT*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO CABECERA*/
+/*INICIO CABECERA*/
+.cabecera {
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
+}
+
+.logoC {
+	padding-left: 90px;
+	margin: 0 auto;
+	width: 13%;
+	height: 50px;
+}
+
+.logoC img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+/*FINAL CABECERA*/
+/*FINAL CABECERA*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO BARRA DE NAVEGACION*/
+/*INICIO BARRA DE NAVEGACION*/
+.navegacion {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navegacion ul  {
+	list-style-type: none;
+}
+
+	.menuP > li {
+		position: relative;
+		display: inline-block;
+	}
+
+	.menuP > li a {
+		display: block;
+		padding: 15px 20px;
+		font-size: 25px;
+		text-decoration: none;
+		color: #c1c556;
+	}
+
+	.menuP li a:hover {
+		background-color: #f1da70;
+		border: 5px solid #ca7a7a;
+		border-radius: 10px;
+		transition: all 0.5s;
+		color: #ca7a7a;
+		font-weight: bold;
+	}
+
+		.submenu {
+			position: absolute;
+			width: 170px;
+			display: none;
+			background: #F3D377; /*AQUÍ PUEDO PONER EL COLOR DE
+			FONDO DEL SUB MENU Y ES TOTALMENTE VALIDO*/
+		}
+
+		.submenu li a {
+			display: block;
+			padding: 15px;
+			color: white;
+			font-size: 25px;
+			text-decoration: none;
+		}
+
+
+		.menuP li:hover .submenu {
+			display: block;
+			/*AQUÍ TAMBIEN PONER EL COLOR DE
+			FONDO DEL SUB MENU Y ES TOTALMENTE VALIDO*/
+		}
+/*FINAL BARRA DE NAVEGACION*/
+/*FINAL BARRA DE NAVEGACION*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO ATAJO PARA VOLVER A SUBIR*/
+/*INICIO ATAJO PARA VOLVER A SUBIR*/
+.atajo {
+	width: 130px;
+	margin: 10px 0 0 15px;
+	position: fixed;
+	text-align: center;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.atajo a:link, .atajo a:visited {					/*paleta de nomades aire*/
+	background-color: #f1da70; /*amarillito*/
+	border: 5px solid #ca7a7a; /*el mismo rojito*/
+	border-radius: 10px;
+	color: #ca7a7a; /*el mismo rojito*/
+	padding: 5px 5px;
+	text-decoration: none;
+	display: block;
+}
+
+.atajo a:hover, .atajo a:active {					/*paleta de colores tribu agua*/
+	transition: all 0.5s;
+	background-color: #b2a5b6 ;/*#70ace2; azul claro*/
+	border: 5px solid #3f5267 ;/*#2f6d9f; azul oscuro*/
+	color: #fff0e0 ;/*#edf4fe; blanquito*/
+}
+
+	.atajo2 {
+		width: 130px;
+		margin: 10px 0 0 1204px;
+		float: right;
+		position: fixed;
+		text-align: center;
+		font-weight: bold;
+		display: inline-block;
+	}
+
+	.atajo2 a:link, .atajo2 a:visited {		/*paleta de colores reino tierra*/
+		background-color: #ffffd6; /*beige claro*/
+		border: 5px solid #92C240; /*verde lindo*/
+		border-radius: 5px;
+		color: #c1c556; /*verde feo chiquito*/
+		padding: 5px 5px;
+		text-decoration: none;
+		display: block;
+	}
+
+	.atajo2 a:hover, .atajo2 a:active {		/*paleta de colores nacion del fuego*/
+		transition: all 0.5s;
+		background-color: #d0774c; /*rojo claro*/
+		border: 5px solid #9f4a2b; /*rojo oscuro*/
+		color: #debc4f; /*dorado*/
+	}
+/*FINAL ATAJO PARA VOLVER A SUBIR*/
+/*FINAL ATAJO PARA VOLVER A SUBIR*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO CONTENIDO PRINCIPAL*/
+/*INICIO CONTENIDO PRINCIPAL*/
+main p, main h2, main h3 {
+	color: white;
+	font-weight: bold;
+}
+
+.punto_importante {
+	text-align: center;
+}
+
+.debajo_imagen {
+	margin-left: 10px;
+	margin-top: 0;
+}
+
+.banner {
+	width: auto;
+	margin: 10px;
+	border: 4px solid black;
+	border-radius: 5px;
+}
+
+.banner img {
+	width: 100%;
+	
+}
+
+.indice {
+	width: 30%;
+	background-color: #303030;
+	border: 4px solid black;
+	border-radius: 5px;
+	margin: 10px;
+	color: white;
+}
+
+.indice a {
+	color: white;
+	text-decoration: none;
+}
+
+.imagen {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.imagen img {
+	width: 100%;
+}
+
+	.SMimagen {
+		width: 60%;
+		margin: 0 auto;
+	}
+
+	.SMimagen img{
+		width: 100%;
+	}
+/*FINAL CONTENIDO PRINCIPAL*/
+/*FINAL CONTENIDO PRINCIPAL*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO BARRA LATERAL*/
+/*INICIO BARRA LATERAL*/
+/*.linkaangBL {
+	color: #F9F9F9;
+	font-weight: bold;
+}
+
+.linkkorraBL {
+	color: #4F98EA;
+	font-weight: bold;
+}
+
+.imagen {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.imagen img {
+	width: 100%;
+}
+/*FINAL BARRA LATERAL*/
+/*FINAL BARRA LATERAL*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO PIE DE PÁGINA*/
+/*INICIO PIE DE PÁGINA*/
+
+.pie_de_pagina {
+	/*background-color: #D5D3D3;
+	padding: 0;
+	opacity: 0.87;*/
+}
+
+.textopp  {	
+	width: 100%;
+	height: 60px;
+	
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.textopp p, .textopp b {
+	color: #1C1C1C;
+	margin: 25px;
+}
+/*FINAL PIE DE PÁGINA*/
+/*FINAL PIE DE PÁGINA*/

@@ -1,0 +1,95 @@
+* {
+	margin: 0;
+	padding: 0;
+	cursor: url('../img/punteroo.png'), auto;
+}
+
+body {
+	margin: 0px;
+	height: calc(100%);
+	background: url('../img/aang/LAangWP.jpg');
+	background-position: 50% 0; /* me centra horizontalmente a la mitad 
+	y verticalmente nada */
+	background-repeat: no-repeat; /* no se repetirá el fondo infinitamente */
+	background-size: 100% 100%; /* tamaño de la imagen del fondo, tamaño
+	en el eje X y luego en el eje Y respectivamente */
+	background-attachment: fixed; /* fondo fijo en la pantalla */
+
+
+}
+
+body a {
+	cursor: url('../img/punteroo.png'), auto;
+}
+
+form {
+	width: 30%;
+	margin-top: 40px;
+	margin-right: 50px;
+	padding: 20px 20px;
+	float: right;
+
+	opacity: 0.87;
+	background-color: #b2a5b6 ;/*azul claro*/
+	border: 5px solid #3f5267 ;/*azul oscuro*/
+	border-radius: 10px;
+
+
+	text-align: center;
+	font-weight: bold;
+	color: #fff0e0 ;/*blanquito*/
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+.texto {
+	width: 100%;
+	margin: 2px 0;
+	padding: 12px 20px;
+	display: inline-block;
+	border: 3px solid black;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.boton {
+	width: 100%;
+	background-color: #ffffd6; /*beige claro*/
+	color: white;
+	padding: 10px 20px;
+	margin: 10px 0;
+	border: 3px solid #92C240; /*verde lindo*/
+	border-radius: 10px;
+	color: #c1c556; /*verde feo chiquito*/;
+	
+	cursor: url('../img/punteroo.png'), auto;
+}
+
+.boton:hover {
+	transition: 0.5s;
+	background-color: #d0774c; /*rojo claro*/
+	border: solid #9f4a2b; /*rojo oscuro*/
+	color: #debc4f; /*dorado*/
+	font-weight: bold;
+	font-size: 17px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	display: inline-block;
+	background-color: #f1da70; /*amarillito*/
+	border: 5px solid #ca7a7a; /*el mismo rojito*/;
+	border-radius: 10px;
+	color: #ca7a7a; /*el mismo rojito*/
+	padding: 10px 20px;
+	text-align: center;
+}
+
+a:hover, a:active {
+	transition: 0.5s;
+	background-color: #d0774c; /*rojo claro*/
+	border: 5px solid #9f4a2b; /*rojo oscuro*/
+	color: #debc4f; /*dorado*/
+}

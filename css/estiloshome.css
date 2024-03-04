@@ -1,0 +1,327 @@
+* {
+	cursor: url('../img/punteroo.png'), auto;
+}
+
+body {
+	margin: 0px;
+	height: calc(100%);
+	background: url('../img/home/mapa.png');
+	background-position: 50% 0; /* me centra horizontalmente a la mitad 
+	y verticalmente nada */
+	background-repeat: no-repeat; /* no se repetirá el fondo infinitamente */
+	background-size: 100% 100%; /* tamaño de la imagen del fondo, tamaño
+	en el eje X y luego en el eje Y respectivamente */
+	background-attachment: fixed; /* fondo fijo en la pantalla */
+
+	cursor: url('../img/punteroo.png'), auto;
+}
+
+body a {
+	cursor: url('../img/punteroo.png'), auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO ESTRUCTURACION DEL LAYOUT*/
+/*INICIO ESTRUCTURACION DEL LAYOUT*/
+/*INICIO ESTRUCTURACION DEL LAYOUT*/
+/*INICIO ESTRUCTURACION DEL LAYOUT*/
+
+header {
+	height: calc(10%);
+
+	background-color: #61a6da;
+	opacity: 0.87;
+
+	border-bottom: 5px solid #fff0e0;
+}
+
+nav {
+	height: calc(10%);
+	width: 100%;
+
+	background-color: #ffffd6;
+	opacity: 0.87;
+
+	border-top: 5px solid #92C240;
+	border-bottom: 5px solid #92C240;
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.container {
+	height: calc(250%);
+	margin: 10% 10px;
+	opacity: 0.87;
+
+	display: flex;
+	justify-content: center;
+}
+
+main {
+	width: 50%;
+	margin: 0 25px 0 0;
+
+	background-color: #d0774c;
+	padding: 15px;
+
+	border: 5px solid #debc4f;
+	box-sizing: border-box;
+}
+
+aside {
+	width: 25%;
+	margin: 0;
+	padding: 10px;
+
+	background-color: #D5D3D3;
+	border: 5px solid white;
+}
+
+footer {
+	height: calc(15%);
+	margin-top: 700px;
+	margin-bottom: 50px;
+	padding: 0;
+
+	background-color: #D5D3D3;
+	border-top: 5px solid white;
+	opacity: 0.87;
+}
+/*FINAL ESTRUCTURACION DEL LAYOUT*/
+/*FINAL ESTRUCTURACION DEL LAYOUT*/
+/*FINAL ESTRUCTURACION DEL LAYOUT*/
+/*FINAL ESTRUCTURACION DEL LAYOUT*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO CABECERA*/
+/*INICIO CABECERA*/
+.cabecera {
+	/*display: flex;
+	align-items: center;
+	justify-content: center;*/
+}
+
+.logoC {
+	padding-left: 90px;
+	margin: 0 auto;
+	width: 13%;
+	height: 50px;
+}
+
+.logoC img {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+/*FINAL CABECERA*/
+/*FINAL CABECERA*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO BARRA DE NAVEGACION*/
+/*INICIO BARRA DE NAVEGACION*/
+.navegacion {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.navegacion ul  {
+	list-style-type: none;
+}
+
+	.menuP > li {
+		position: relative;
+		display: inline-block;
+	}
+
+	.menuP > li a {
+		display: block;
+		padding: 15px 20px;
+		font-size: 25px;
+		text-decoration: none;
+		color: #c1c556;
+	}
+
+	.menuP li a:hover {
+		background-color: #f1da70;
+		border: 5px solid #ca7a7a;
+		border-radius: 10px;
+		transition: all 0.5s;
+		color: #ca7a7a;
+		font-weight: bold;
+	}
+
+		.submenu {
+			position: absolute;
+			width: 170px;
+			display: none;
+			background: #F3D377; /*AQUÍ PUEDO PONER EL COLOR DE
+			FONDO DEL SUB MENU Y ES TOTALMENTE VALIDO*/
+		}
+
+		.submenu li a {
+			display: block;
+			padding: 15px;
+			color: white;
+			font-size: 25px;
+			text-decoration: none;
+		}
+
+
+		.menuP li:hover .submenu {
+			display: block;
+			/*AQUÍ TAMBIEN PONER EL COLOR DE
+			FONDO DEL SUB MENU Y ES TOTALMENTE VALIDO*/
+		}
+/*FINAL BARRA DE NAVEGACION*/
+/*FINAL BARRA DE NAVEGACION*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO CONTENIDO PRINCIPAL*/
+/*INICIO CONTENIDO PRINCIPAL*/
+main p, main h2, main h3 {
+	color: white;
+	font-weight: bold;
+}
+
+.citaintro {
+	width: 80%;
+	background-color: #303030;
+	border: 4px solid black;
+	border-radius: 5px;
+	margin: 15px;
+	color: white;
+}
+
+main a {
+	color: #F4E443; /*amarillo fuerte*/
+}
+
+.notita {
+	margin-left: 70px;
+}
+/*FINAL CONTENIDO PRINCIPAL*/
+/*FINAL CONTENIDO PRINCIPAL*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO BARRA LATERAL*/
+/*INICIO BARRA LATERAL*/
+aside p{
+	color: #1C1C1C;
+	text-align: right;
+	font-weight: bold;
+}
+
+.gif {
+	width: 30%;
+	margin: 0 auto;
+}
+
+.gif img {
+	width: 100%;
+}
+
+.imagen {
+	width: auto;
+	margin: 10px;
+}
+
+.imagen img {
+	width: 100%;
+}
+
+.linkaangBL {
+	color: #4F98EA; /*#F4E443 amarillo del main*/
+	font-weight: bold;
+}
+
+.linkkorraBL {
+	color: #4F98EA;
+	font-weight: bold;
+}
+/*FINAL BARRA LATERAL*/
+/*FINAL BARRA LATERAL*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*INICIO PIE DE PÁGINA*/
+/*INICIO PIE DE PÁGINA*/
+.textopp  {	
+	width: 100%;
+	height: 60px;
+	
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.textopp p, .textopp b {
+	color: #1C1C1C;
+	margin: 25px;
+}
+/*FINAL PIE DE PÁGINA*/
+/*FINAL PIE DE PÁGINA*/
